@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=\, initial-scale=1.0">
+   <title>Document</title>
+</head>
+
+<body>
+   <script>
+      //It is basically a blueprint for creating objects with properties and methods.
+      //It defines how an object should look (its properties) and what it can do (its methods).
+
+      // In simple words:
+      //Class = Design / Template
+      //Object = Real thing created from the design
+
+
+      /*  class railwayForm {
+          submit() {
+             alert("form submitted")
+          }
+          cancel() {
+             alert("form has been cancelled")
+          }
+       }
+ 
+       let bhuwan = new railwayForm()
+       let rahul = new railwayForm()
+ 
+       bhuwan.submit()
+       rahul.submit()
+       rahul.cancel() */
+
+
+
+      /* class present1{
+         yes1(){
+            console.log("yes i am present ")
+         }
+         no(){
+            console.log("he is not present ")
+          }
+      }
+      let akshay= new  present1()
+      let mohan=  new present1()
+      akshay.yes1()
+      mohan.yes1()
+      mohan.no() */
+
+
+
+
+
+      class railwayForm {
+
+         submit() {
+            console.log(this.name + "  your form is submitted")
+         }
+         cancel() {
+            console.log(this.name + " your form is cancelled")
+         }
+         fill(givename, trainN) {
+            this.name = givename
+            this.trainN = trainN
+         }
+      }
+
+
+      let bhuwanForm = new railwayForm()
+      let mohanForm = new railwayForm()
+      bhuwanForm.fill("bhuwan", 12121)
+      mohanForm.fill("mohan", 12412)
+      bhuwanForm.submit()
+      mohanForm.submit()
+      mohanForm.cancel()
+
+
+
+      //JavaScript me constructor ek special function/method hota hai jo naye object banate waqt initial setup karta hai — jaise properties set karna, default values dena, validation, etc.
+
+//Constructor kya hota hai?
+
+//Constructor ek special function hota hai jo class ke andar banta hai.
+
+//Jab bhi hum class ka new object banate hain, to constructor automatically call hota hai.
+
+//Iska kaam hota hai object ke andar initial values set karna (jaise name, age, id, etc.).
+
+
+   </script>
+</body>
+
+</html>
