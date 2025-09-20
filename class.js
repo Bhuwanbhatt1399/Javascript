@@ -78,18 +78,9 @@
 
 
 
-      //JavaScript me constructor ek special function/method hota hai jo naye object banate waqt initial setup karta hai — jaise properties set karna, default values dena, validation, etc.
-
-//Constructor kya hota hai?
-
-//Constructor ek special function hota hai jo class ke andar banta hai.
-
-//Jab bhi hum class ka new object banate hain, to constructor automatically call hota hai.
-
-//Iska kaam hota hai object ke andar initial values set karna (jaise name, age, id, etc.).
-
 
    </script>
 </body>
+
 
 </html>
