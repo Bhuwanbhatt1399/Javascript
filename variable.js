@@ -128,20 +128,6 @@ let student={
 student.sound()
 
 
-// data type
-// variable
-//object
-// Variable
-// 2. Operator
-// 3.Data type
-// 4.Conditional(If else, switch)
-// 5.Object
-// 6.Loop
-// 7.Function
-// 8.String
 
-
-
-// data type 
 
 
